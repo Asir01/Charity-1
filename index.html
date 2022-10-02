@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Charity</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Causes
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Event
+            </a>
+                    </li>
+                    </li>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+    <!-- Welcome To Charity -->
+    <section id="blog">
+        <div class="flex-box item-center justify-start blog-item">
+            <div class="half-width" style="margin-right: 10%;">
+                <h1>Their lives depend on your donation</h1>
+                <p>Donating is a selfless act, so giving to charity will improve your self-esteem and self-worth. By donating money to charity, you will achieve a greater sense of satisfaction and growth as it feels good to help others and provide them with
+                    all the essential resources.</p>
+                <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. </p>
+                <a href="#" class="link-button">Read More</a>
+            </div>
+
+            <div class="">
+                <img id="donation-3" src="image/Donation-3.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="numbers" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="number">
+                            <i class="fa fa-smile-o"></i>
+                            <h3>47k</h3>
+                            <span>Donors</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="number">
+                            <i class="fa fa-heartbeat"></i>
+                            <h3>154K</h3>
+                            <span>Children Saved</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="number">
+                            <i class="fa fa-money"></i>
+                            <h3>785K</h3>
+                            <span>Donated</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="number">
+                            <i class="fa fa-handshake-o"></i>
+                            <h3>357</h3>
+                            <span>Volunteers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="causes" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title text-center">
+                            <h2 class="title">Our Causes</h2>
+                            <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="causes">
+                            <div class="causes-img">
+                                <a href="single-cause.html">
+                                    <img src="theme/charity2/img/xpost-1.jpg.pagespeed.ic.vrRgc_3PjI.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="causes-progress">
+                                <div class="causes-progress-bar">
+                                    <div style="width: 87%;">
+                                        <span>87%</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                </div>
+                            </div>
+                            <div class="causes-content">
+                                <h3><a href="single-cause.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="single-cause.html" class="primary-button causes-donate">Donate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="causes">
+                            <div class="causes-img">
+                                <a href="single-cause.html">
+                                    <img src="theme/charity2/img/xpost-2.jpg.pagespeed.ic.xh7_NMuawU.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="causes-progress">
+                                <div class="causes-progress-bar">
+                                    <div style="width: 53%;">
+                                        <span>53%</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                </div>
+                            </div>
+                            <div class="causes-content">
+                                <h3><a href="theme/charity2/single-cause.html">Vix fuisset tibique facilisis cu. Justo accusata ius at</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="theme/charity2/single-cause.html" class="primary-button causes-donate">Donate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="causes">
+                            <div class="causes-img">
+                                <a href="theme/charity2/single-cause.html">
+                                    <img src="theme/charity2/img/xpost-3.jpg.pagespeed.ic.THm-cPziJC.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="causes-progress">
+                                <div class="causes-progress-bar">
+                                    <div style="width: 72%;">
+                                        <span>72%</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                </div>
+                            </div>
+                            <div class="causes-content">
+                                <h3><a href="theme/charity2/single-cause.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="theme/charity2/single-cause.html" class="primary-button causes-donate">Donate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix visible-md visible-lg"></div>
+                    <div class="col-md-4">
+                        <div class="causes">
+                            <div class="causes-img">
+                                <a href="theme/charity2/single-cause.html">
+                                    <img src="theme/charity2/img/xpost-4.jpg.pagespeed.ic.GCjGREkb1-.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="causes-progress">
+                                <div class="causes-progress-bar">
+                                    <div style="width: 64%;">
+                                        <span>64%</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                </div>
+                            </div>
+                            <div class="causes-content">
+                                <h3><a href="theme/charity2/single-cause.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="theme/charity2/single-cause.html" class="primary-button causes-donate">Donate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="causes">
+                            <div class="causes-img">
+                                <a href="theme/charity2/single-cause.html">
+                                    <img src="theme/charity2/img/xpost-5.jpg.pagespeed.ic.qvDU9cRyRX.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="causes-progress">
+                                <div class="causes-progress-bar">
+                                    <div style="width: 72%;">
+                                        <span>72%</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                </div>
+                            </div>
+                            <div class="causes-content">
+                                <h3><a href="theme/charity2/single-cause.html">Vix fuisset tibique facilisis cu. Justo accusata ius at</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="theme/charity2/single-cause.html" class="primary-button causes-donate">Donate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="causes">
+                            <div class="causes-img">
+                                <a href="theme/charity2/single-cause.html">
+                                    <img src="theme/charity2/img/xpost-6.jpg.pagespeed.ic.EY1W5yetOp.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="causes-progress">
+                                <div class="causes-progress-bar">
+                                    <div style="width: 53%;">
+                                        <span>53%</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                </div>
+                            </div>
+                            <div class="causes-content">
+                                <h3><a href="theme/charity2/single-cause.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <a href="theme/charity2/single-cause.html" class="primary-button causes-donate">Donate Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cta" class="section">
+
+            <div class="section-bg" style="background-image: url(./img/background-1.jpg);" data-stellar-background-ratio="0.5"></div>
+
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="cta-content text-center">
+                            <h1>Become A Volunteer</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <a href="#" class="primary-button">Join Us Now!</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id="events" class="section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="section-title text-center">
+                            <h2 class="title">Upcoming Events</h2>
+                            <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="event">
+                            <div class="event-img">
+                                <a href="single-event.html">
+                                    <img src="img/xevent-1.jpg.pagespeed.ic.AabkvXru2H.webp" alt="" data-pagespeed-url-hash="2130325579" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </a>
+                            </div>
+                            <div class="event-content">
+                                <h3><a href="single-event.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
+                                <ul class="event-meta">
+                                    <li><i class="fa fa-clock-o"></i> 24 October, 2018 | 8:00AM - 11:00PM</li>
+                                    <li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="event">
+                            <div class="event-img">
+                                <a href="single-event.html">
+                                    <img src="img/xevent-2.jpg.pagespeed.ic.6QP6qAsiNP.webp" alt="" data-pagespeed-url-hash="2424825500" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </a>
+                            </div>
+                            <div class="event-content">
+                                <h3><a href="single-event.html">Vix fuisset tibique facilisis cu. Justo accusata ius at</a></h3>
+                                <ul class="event-meta">
+                                    <li><i class="fa fa-clock-o"></i> 24 October, 2018 | 8:00AM - 11:00PM</li>
+                                    <li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix visible-md visible-lg"></div>
+
+                    <div class="col-md-6">
+                        <div class="event">
+                            <div class="event-img">
+                                <a href="single-event.html">
+                                    <img src="./img/event-3.jpg" alt="" data-pagespeed-url-hash="2719325421" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </a>
+                            </div>
+                            <div class="event-content">
+                                <h3><a href="single-event.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
+                                <ul class="event-meta">
+                                    <li><i class="fa fa-clock-o"></i> 24 October, 2018 | 8:00AM - 11:00PM</li>
+                                    <li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="event">
+                            <div class="event-img">
+                                <a href="single-event.html">
+                                    <img src="./img/event-4.jpg" alt="" data-pagespeed-url-hash="3013825342" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </a>
+                            </div>
+                            <div class="event-content">
+                                <h3><a href="single-event.html">Vix fuisset tibique facilisis cu. Justo accusata ius at</a></h3>
+                                <ul class="event-meta">
+                                    <li><i class="fa fa-clock-o"></i> 24 October, 2018 | 8:00AM - 11:00PM</li>
+                                    <li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-8 col-md-offset-2">
+            <div class="section-title text-center">
+                <h2 class="title">Our Blog</h2>
+                <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="article">
+                <div class="article-img">
+                    <a href="single-blog.html">
+                        <img src="img/xpost-1.jpg.pagespeed.ic.wpEhH1d6YX.webp" alt="" data-pagespeed-url-hash="3178000265" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </a>
+                </div>
+                <div class="article-content">
+                    <h3 class="article-title"><a href="single-blog.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
+                    <ul class="article-meta">
+                        <li>12 November 2018</li>
+                        <li>By John doe</li>
+                        <li>0 Comments</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="article">
+                <div class="article-img">
+                    <a href="single-blog.html">
+                        <img src="img/xpost-2.jpg.pagespeed.ic.CDtmMCVAag.webp" alt="" data-pagespeed-url-hash="3472500186" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </a>
+                </div>
+                <div class="article-content">
+                    <h3 class="article-title"><a href="single-blog.html">Vix fuisset tibique facilisis cu. Justo accusata ius at</a></h3>
+                    <ul class="article-meta">
+                        <li>12 November 2018</li>
+                        <li>By John doe</li>
+                        <li>0 Comments</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="article">
+                <div class="article-img">
+                    <a href="single-blog.html">
+                        <img src="img/xpost-3.jpg.pagespeed.ic.WlHHCfMLs_.webp" alt="" data-pagespeed-url-hash="3767000107" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </a>
+                </div>
+                <div class="article-content">
+                    <h3 class="article-title"><a href="single-blog.html">Possit nostro aeterno eu vis, ut cum quem reque</a></h3>
+                    <ul class="article-meta">
+                        <li>12 November 2018</li>
+                        <li>By John doe</li>
+                        <li>0 Comments</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+
+        </div>
+        <footer id="footer" class="section">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="footer">
+                            <div class="footer-logo">
+                                <a class="logo" href="#"><img src="data:image/webp;base64,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"
+                                        alt="" data-pagespeed-url-hash="463418924" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <ul class="footer-contact">
+                                <li><i class="fa fa-map-marker"></i> 2736 Hinkle Deegan Lake Road</li>
+                                <li><i class="fa fa-phone"></i> 607-279-9246</li>
+                                <li><i class="fa fa-envelope"></i> <a href="#"><span class="__cf_email__" data-cfemail="d390bbb2a1baa7aa93b6beb2babffdb0bcbe">[email&#160;protected]</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="footer">
+                            <h3 class="footer-title">Galery</h3>
+                            <ul class="footer-galery">
+                                <li>
+                                    <a href="#"><img src="./img/galery-1.jpg" alt="" data-pagespeed-url-hash="2788265339" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./img/galery-2.jpg" alt="" data-pagespeed-url-hash="3082765260" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./img/galery-3.jpg" alt="" data-pagespeed-url-hash="3377265181" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./img/galery-4.jpg" alt="" data-pagespeed-url-hash="3671765102" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./img/galery-5.jpg" alt="" data-pagespeed-url-hash="3966265023" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./img/galery-6.jpg" alt="" data-pagespeed-url-hash="4260764944" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="footer">
+                            <h3 class="footer-title">Newsletter</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            <form class="footer-newsletter">
+                                <input class="input" type="email" placeholder="Enter your email">
+                                <button class="primary-button">Subscribe</button>
+                            </form>
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div id="footer-bottom" class="row">
+                    <div class="col-md-6 col-md-push-6">
+                        <ul class="footer-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Causes</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-md-pull-6">
+                        <div class="footer-copyright">
+                            <span>
+            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </footer>
+</body>
+
+</html>
